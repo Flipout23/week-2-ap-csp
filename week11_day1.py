@@ -27,14 +27,14 @@ num1 = 3
 num2 = 3
 num3 = int(input ("what is your 3rd fav")) #5
 num4 = int(input ("what is your 4th fav")) #4
-print(num1 + num2) # output 6
-print(num3 + num4) # output
+print(num1 + num2) 
+print(num3 + num4) 
 
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
-
-
-
+num6 = int(input ("What continent is France in?"))
+num7 = int(input ("What is the shape of italy?"))
+print(num6 + num7)
 
 # ⚙️ Step 5: Final Challenge (combine it all)
 # Use math and strings together

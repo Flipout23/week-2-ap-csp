@@ -62,6 +62,21 @@ print(chicago_mayor[1:5]) # this is how to get "ohns" from "Johnson"
 #this is called string indexing
 #when we get a chunk of letters from a string, its called string slicing
 
+phrase4 = "Supercagifragilstic"
+#uppercase it
+#slice Super out of it into a different variable
+#slice cagi out of phase3 into its own variable
+#print out the last letter.
+print("Uppercase:", phrase4.upper())
+cut = phrase4[0:5]
+print(cut)
+cut1 = phrase4[5:9]
+print(cut1)
+print(phrase4[-1])
+#git add .
+#git commit -m "practice slicing"
+#git push origin
+
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
 # print("Last character:", phrase[-1])  # Output: !

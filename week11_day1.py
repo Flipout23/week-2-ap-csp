@@ -32,10 +32,11 @@ print(num3 + num4)
 
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
-num5 = int(input ("What continent is France in?"))
-num6 = int(input ("What is the shape of italy?"))
+num5 = input ("What continent is France in?")
+num6 = input ("What is the shape of italy?")
 print(num5 + num6)
 
 # ⚙️ Step 5: Final Challenge (combine it all)
 # Use math and strings together
-
+num8 = int(input (" What is the sum of 12 and 11"))
+num7 = input ("What is your name")

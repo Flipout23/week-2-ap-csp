@@ -52,6 +52,15 @@ chicago_mayor = "Johnson"
 print(chicago_mayor[0]) #first letter
 print(chicago_mayor[-1]) #last letter
 print(chicago_mayor[-3] ) # the letter "s" in johnson
+#slicing
+print(chicago_mayor[4 :]) #this is how to get "son" from "Johnson"
+#The first number is inclusing
+#The second number is exclusive
+print(chicago_mayor[0:4]) # This is how to get "john" from "johnson"
+print(chicago_mayor[1:5]) # this is how to get "ohns" from "Johnson"
+#When we get one character/letter
+#this is called string indexing
+#when we get a chunk of letters from a string, its called string slicing
 
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
